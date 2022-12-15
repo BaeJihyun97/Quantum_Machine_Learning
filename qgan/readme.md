@@ -8,10 +8,10 @@ The implementation is based on [Experimental Quantum Generative Adversarial Netw
 
 ---
 
-###GAN Loss
+### GAN Loss
 
 ```math
-min_\theta\ max_\gamma\funcapply\mathcal{L}(D_\gamma\ (G_\theta\ (z)),\ D_\gamma\ (x))\ \ \ \∶=\mathbb{E}_(x~P_data\ (x)\ )\ \ [logD_\gamma\ (x)]+E_(z~P(z)) [log⁡(1-D_γ (G_θ (z))]
+\min_\theta{\max_\gamma{\mathcal{L}\left(D_\gamma\left(G_\theta\left(z\right)\right),\ D_\gamma\left(x\right)\right)}}\ \∶=\mathbb{E}_{x~P_{data}\left(x\right)}\ \left[logD_\gamma\left(x\right)\right]+\mathbb{E}_{z~P(z)}[\log\funcapply(1-D_\gamma(G_\theta\left(z\right))]
 ```
 
 
