@@ -1,5 +1,4 @@
 # QGAN
-
 ---
 
 The implementation is based on [Experimental Quantum Generative Adversarial Networks for Image Generation](https://arxiv.org/pdf/2010.06201.pdf)
