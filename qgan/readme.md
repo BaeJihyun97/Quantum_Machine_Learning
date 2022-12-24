@@ -66,3 +66,7 @@ For the Pauli gate, the eigenvalues are $\pm 1$ and a can be set to $\frac{1}{2}
 ![quantum patch gan](https://user-images.githubusercontent.com/70127344/208101486-5affbafa-9470-49d7-8296-a6571097bacf.png)
 
 For encoding they use rotation y gate and alpha is sampled from the uniform distribution. The ancillary bit is for the non-linearity. Through the unitary gate, generated state psi is partially measured to obtain the classical result. For discriminator fully connected neural network is used
+
+## Result
+![qgan_result](https://user-images.githubusercontent.com/70127344/209433747-67ba33af-e6fc-4dac-8eb6-ff1a1726de66.png)
+
